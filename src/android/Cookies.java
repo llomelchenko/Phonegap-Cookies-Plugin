@@ -59,7 +59,7 @@ public class Cookies extends CordovaPlugin {
     }
 
 		public void acceptCookies() {
-			Log.v(TAG, "Clearing cookies...");
+			Log.v(TAG, "setting accept cookies cookies...");
 	        CookieManager.getInstance().setAcceptCookie(true);
 	        CookieManager.getInstance().setAcceptFileSchemeCookies(true);
 	    }
